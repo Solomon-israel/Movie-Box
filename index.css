@@ -100,28 +100,58 @@ search-input {
 .john-box {
   width: 380px;
   /* height: 285px; */
-  border: 1px solid black;
   position: relative;
   z-index: 3;
   margin-top: 80px;
 }
 
-.john-box h1{
-    font-size: 900;
+.john-box h1 {
+  font-size: 900;
 }
 
 .icon {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
   /* width: 184px;
     height: 17px; */
-  border: 1px solid red;
+  padding: 10px;
+}
+
+.imdb {
+  display: flex;
+  gap: 10px;
 }
 
 .imdb-image {
-  width: 50px;
+  width: 30px;
+  height: 10px;
 }
 
-.tomato-image{
-    width: 50px;
+.idmb h3{
+  font-size:900;
+}
+
+.tomato {
+  display: flex;
+  gap: 10px;
+  height: 10px;
+}
+
+.tomato-image {
+  width: 20px;
+  height: fit-content;
+}
+
+.john-box p{
+  margin: 20px 0;
+}
+
+.hero-button button{
+  background-color: #be123c;
+  color: #ffffff;
+  width: 169px;
+  padding: 6px 16px;
+  border: 0;
+  border-radius: 6px;
 }
