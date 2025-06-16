@@ -22,6 +22,8 @@ img {
 header {
   color: #ffffff;
   padding: 10px 5rem;
+  position: relative;
+  height: 100vh;
 }
 
 .banner-image {
@@ -71,6 +73,7 @@ search-input {
 
 .search-input ::placeholder {
   color: white;
+  padding: 20px;
 }
 
 .signin {
@@ -109,13 +112,13 @@ search-input {
   font-size: 900;
 }
 
-.icon {
+.card-icon {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   /* width: 184px;
     height: 17px; */
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .imdb {
@@ -128,11 +131,11 @@ search-input {
   height: 10px;
 }
 
-.idmb h3{
-  font-size:900;
+.imdb h3 {
+  font-size: 900;
 }
 
-.tomato {
+.tomato-container {
   display: flex;
   gap: 10px;
   height: 10px;
@@ -143,11 +146,11 @@ search-input {
   height: fit-content;
 }
 
-.john-box p{
+.john-box p {
   margin: 20px 0;
 }
 
-.hero-button button{
+.hero-button button {
   background-color: #be123c;
   color: #ffffff;
   width: 169px;
@@ -155,3 +158,49 @@ search-input {
   border: 0;
   border-radius: 6px;
 }
+
+.featured-movie-section {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.featured-movie-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.featured-movie-head p {
+  color: #be123c;
+}
+
+.featured-movie-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-card-container {
+  width: 250px;
+}
+
+.movie-card-container p {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.movie-card-container h1 {
+  font-size: 900;
+}
+
+.movie-card-container h3 {
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+
+/* .movie-card-container h6{
+  color: gray;
+  font-size: 14px;
+} */
